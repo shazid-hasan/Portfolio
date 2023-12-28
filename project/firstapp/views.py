@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request,'index.html')
+    return render(request,'index1.html')
 
 def inner(request):
     return render(request,'inner-page.html')
